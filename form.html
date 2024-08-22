@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>form</title>
+    <style>
+        legend{
+            padding: 5px 10px;
+            border: 2px solid;
+        }
+        fieldset{
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+
+    </style>
+</head>
+<body>
+    <div style="padding:auto;">
+       <fieldset >
+        <legend style="border: 1 solid black;">Personal Details</legend>
+        <form style="padding-left: 40% ;">
+
+            <label >Name </label> <input type="text" style="margin-left: 6%;padding-left: 2%; " ><br><br><br>
+            <label>Password </label> <input type="password" style="margin-left: 2%; padding-left: 2%;"><br><br><br>
+            <label>Gender </label>   <input type="radio" name= "Gender" style="margin-left: 4%;" >Male
+                                     <input type="radio" name= "Gender" >Female <br><br><br>
+            <label>Hobies </label>   <input type="checkbox" style="margin-left: 5%;">Book Reading
+                                     <input type="checkbox" >Music
+                                     <input type="checkbox" >Travelling<br><br><br>
+            <label> Country </label> <select style="margin-left: 3%;padding-left: 15%;" >
+                                     <option></option>
+                                     <option>Afghanistan</option>
+                                     <option>Albania</option>
+                                     <option>Algeria</option>
+                                     <option>Andorra</option>
+                                     <option>Antigua</option>
+            </select><br><br><br>
+            <label> Message </label>
+            <textarea style="margin-left: 3%; padding-left: 3%;" >Lorem ipsum, dolor sit amet consectetur
+                                     adipisicing elit. Animi ut ipsa, eveniet odio
+                                      accusamus non reprehenderit voluptatum, porro
+                                       fugit tempore pariatur odit illo doloremque
+                                        laborum eos iste recusandae numquam ipsum?
+            </textarea><br><br><br>
+            <button type="submit" ; style="background-color: grey; margin-left: 12%; color: white; text-align: center;
+             border-radius: 4px;  width: 70px;
+             height: 30px;" > Save </button>
+             &nbsp;
+            <button  type="submit" style="background-color: grey; color: white; text-align: center;
+            border-radius: 4px;   width: 70px;
+            height: 30px;" > Reset </button>
+        </form>
+       </fieldset>
+    </div>
+</body>
+</html>
